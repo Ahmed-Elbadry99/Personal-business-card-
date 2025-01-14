@@ -158,9 +158,7 @@ header .main-container{
         flex-direction: column;
         gap: 30px;
 }
-.landing-content h1{
-    font-weight: 600;
-}
+
 
 .landing-content p{
     font-size:18px;
