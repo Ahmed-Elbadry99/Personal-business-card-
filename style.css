@@ -85,8 +85,7 @@ header .main-container{
 .contact-link{
     width: fit-content;
     height: 48px;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
     background-color: var(--main-color);
     color: white;
     align-content: center;
