@@ -465,19 +465,25 @@ header .main-container{
 .contact-form input{
     font-size: 16px;
     height: 60px;
-    border: 1px solid #D9D9D9;
+    border: 1px solid  rgba(243, 243, 243, 1);
     padding: 0 20px 0 10px; 
     outline: none;
     background-color: rgba(243, 243, 243, 1);
 }
 
 .contact-form textarea{
-    border: 1px solid #D9D9D9;
+    border: 1px solid rgba(243, 243, 243, 1);
     padding: 15px 20px 0 10px;
     outline: none;
     background-color: rgba(243, 243, 243, 1);
     resize: none;
 }
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    border: 1px solid #D9D9D9 ;
+}
+
 
 .contact-form button{
     width: 200px;
