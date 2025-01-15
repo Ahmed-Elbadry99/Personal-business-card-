@@ -24,3 +24,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
     typeWriter();
 });
+
+
+
+
+
+    // // change jquery to js
+    // document.addEventListener("DOMContentLoaded", function() {
+    //     const whatsappMain = document.querySelector(".whatsapp-main");
+    //     const whatsappOptions = document.querySelector(".whatsapp-options");
+
+    //     whatsappMain.addEventListener("click", function() {
+    //         whatsappOptions.style.display = whatsappOptions.style.display === "none" ? "flex" : "none";
+            
+    //     });
+    // });
