@@ -326,13 +326,13 @@ header .main-container{
   .bottom-arrow {
     opacity: 0;
     animation: fadeInArrows 3s forwards infinite;
-    transform: translateX(30px);
+    transform: translateX(50px);
   }
 
   .top-arrow{
     opacity: 0;
     animation: fadeInTopArrow 3s forwards infinite;
-    transform: translateX(-30px);
+    transform: translateX(-50px);
   }
   .shape1 {
     animation-delay: 1s; /* Delay for shape1 to appear after the image */
@@ -342,14 +342,9 @@ header .main-container{
     animation-delay: 1s; /* Delay for shape2 to appear after shape1 */
   }
   
-  .top-arrow {
-    animation-delay: 1.5s; /* Delay for the top arrow */
-  }
   
-  .bottom-arrow {
-    animation-delay: 1.5s; /* Delay for the bottom arrow */
-  }
   
+
   @keyframes fadeInImage {
     0% {
       opacity: 0;
