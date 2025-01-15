@@ -223,7 +223,34 @@ header .main-container{
     right: -56px;
     position: absolute;
     animation: fadeShapes 3s ease-in-out forwards;
+     animation: fadeCilecle infinite; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
     
+}
+
+
+@keyframes fadeCilecle{
+  
+  0%{
+        border-radius: 50% ;
+        width: 0;
+        height: 0;
+
+
+  }
+  50%{
+
+    border-radius: 0 200px 0 0;
+    width: 113px;
+    height: 113px;
+    
+  }
+  100%{
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+  }
+
 }
 
  .shape2{
@@ -275,21 +302,36 @@ header .main-container{
     animation: fadeInImage 1.5s forwards;
   }
   
-  .shape1, .shape2{
+   .shape2{
       transform: translateY(20px);
-      opacity: 0;
-    animation: fadeInShapes 1s forwards;
+    animation: rotateIn 3s forwards infinite;
   }
   
+
+  @keyframes rotateIn {
+    0% {
+      -webkit-transform: rotate(-200deg);
+      transform: rotate(-180deg);
+  }
+  
+  50% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+  }
+  100%{
+    -webkit-transform: rotate(-200deg);
+      transform: rotate(-180deg);
+  }
+  }
   .bottom-arrow {
     opacity: 0;
-    animation: fadeInArrows 1s forwards;
+    animation: fadeInArrows 3s forwards infinite;
     transform: translateX(30px);
   }
 
   .top-arrow{
     opacity: 0;
-    animation: fadeInTopArrow 1s forwards;
+    animation: fadeInTopArrow 3s forwards infinite;
     transform: translateX(-30px);
   }
   .shape1 {
