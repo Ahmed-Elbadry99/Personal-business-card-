@@ -1221,5 +1221,5 @@ aside,
 .all-article-card:hover,
 .article:hover,
 .aside-item:hover{
-  box-shadow: 0 1px 42px rgba(83, 135, 255, 0.15);
+  box-shadow: 0 1px 42px 0  rgba(83, 135, 255, 0.15);
 }
