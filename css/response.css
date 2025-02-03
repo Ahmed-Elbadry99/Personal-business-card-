@@ -18,6 +18,11 @@
         height: 75px;
         left: -32.5px
     }
+    .article-info,
+    .all-article-info,
+    .aside-item-text{
+    padding: 0 18px;
+    }
     
 }
 
@@ -254,6 +259,12 @@
         height: 100%;
         object-fit: cover;
     }
+
+    .article-info,
+.all-article-info,
+.aside-item-text{
+  padding: 0 15px;
+}
 }
 
 
@@ -295,6 +306,12 @@
     .network-img{
         height: 130px;
     }
+
+    .article-info,
+.all-article-info,
+.aside-item-text{
+  padding: 0 10px;
+}
     
 }
 

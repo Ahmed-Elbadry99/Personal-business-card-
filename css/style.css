@@ -1053,6 +1053,9 @@ margin-bottom: 50px;
   font-size: 18px;
 }
 
+.article{
+  transition: all 0.3s ease;
+}
 .article p  {
   font-family: "Inter-Regular";
   font-size: 16px;
@@ -1116,6 +1119,7 @@ margin-bottom: 50px;
   flex-direction: column;
   gap: 15px;
   margin-bottom: 20px;
+  transition: all 0.3s ease;
 }
 .all-article-card .all-article-img{
 
@@ -1170,6 +1174,9 @@ aside,
   gap: 15px;
 }
 
+.aside-item{
+  transition: all 0.3s ease;
+}
 .article-details-img img{
   width: 100%;
 }
@@ -1203,4 +1210,16 @@ aside,
   font-family: "Inter-Regular";
   color: #5387FF;
   font-size: 14px;
+}
+
+.article-info,
+.all-article-info,
+.aside-item-text{
+  padding: 0 24px;
+}
+
+.all-article-card:hover,
+.article:hover,
+.aside-item:hover{
+  box-shadow: 0 1px 42px rgba(83, 135, 255, 0.15);
 }
