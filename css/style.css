@@ -1215,7 +1215,7 @@ aside,
 .article-info,
 .all-article-info,
 .aside-item-text{
-  padding: 0 24px;
+  padding: 0 24px 15px;
 }
 
 .all-article-card:hover,
