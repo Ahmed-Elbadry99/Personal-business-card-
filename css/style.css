@@ -137,6 +137,7 @@ header .main-container{
 
 }
 
+
 .blog-link{
   text-align: center;
   align-content: center;
@@ -144,8 +145,14 @@ header .main-container{
   cursor: pointer;
   animation: slide-right 0.5s ease-in-out;
   font-weight: bold;
+  transition: all 0.3s ease-in-out;
+
 
   
+}
+
+.blog-link:hover{
+  color: #667085;
 }
 
 
